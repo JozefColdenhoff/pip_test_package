@@ -1,5 +1,5 @@
 [build-system]
-requires = ["setuptools >= 77.0.3", "numpy>=1.25.0"]
+requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "example_package_jcoldenhoff"
@@ -16,6 +16,9 @@ classifiers = [
 ]
 license = "MIT"
 license-files = ["LICENSE*"]
+dependencies = [
+  "numpy>=1.25.0"
+]
 
 [project.urls]
 Homepage = "https://github.com/pypa/sampleproject"
