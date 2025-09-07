@@ -3,7 +3,7 @@ requires = ["setuptools >= 77.0.3"]
 build-backend = "setuptools.build_meta"
 [project]
 name = "example_package_jcoldenhoff"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Jozef Coldenhoff", email="jozefcoldenhoff@gmail.com" },
 ]
